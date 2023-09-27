@@ -22,7 +22,7 @@ library(zoo)
 library(lubridate)
 library(ggplot2)
 
-CPI_Data <- read.csv(file = "~/Downloads/cpilfesl.csv")
+
 url <- "https://raw.githubusercontent.com/MRobinson112/extra_credit-2/main/CPILFESL.csv"
 CPI_Data <- read.csv(url)
 
