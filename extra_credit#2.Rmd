@@ -45,7 +45,7 @@ CPI_Data <- CPI_Data %>%
 CPI_Data
 
 ggplot(data = CPI_Data, aes(x = YEAR, y = MovingAverage)) +
-  geom_line() +  # You can use other geoms like geom_point(), geom_bar(), etc., depending on your data and preference.
+  geom_line() +  
   labs(
     title = "Year vs. MovingAverage",
     x = "Year",
