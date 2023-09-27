@@ -4,6 +4,7 @@ author: "Michael Robinson"
 date: "`r Sys.Date()`"
 output: html_document
 ---
+The Consumer Price Index (CPI) is a widely used economic indicator that measures the average change over time in the prices paid by urban consumers for a basket of goods and services. It is a key tool for assessing inflation, which is the rate at which the general level of prices for goods and services rises, leading to a decrease in the purchasing power of a currency.
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
